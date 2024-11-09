@@ -1,5 +1,5 @@
 FROM python:3.12
-RUN pip install django==4.1.5
+RUN pip install django==5.1.3
 COPY . .
 
 RUN python manage.py migrate
